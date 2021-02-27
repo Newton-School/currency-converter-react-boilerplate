@@ -1,9 +1,12 @@
-import React, {Component, useState} from "react";
+import React  from "react";
+import CurrencyConverter from './CurrencyConverter';
 import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+      <CurrencyConverter/>
+    </div>
   )
 }
 
